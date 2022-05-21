@@ -1,6 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
 html {
     margin : 0;
-    padding : 0;
+    padding : 0
 }
 #allItems{
     margin: 15px 50px 0 50px;
@@ -8,7 +9,30 @@ html {
     cursor: pointer;
 }
 
+h1,h2,h6,p {
+    font-family: 'Montserrat', sans-serif;
+}
+input{
+    width: 50rem;
+    height: 4rem;
+}
 i{
     cursor: pointer;
 }
 
+
+@media only screen and (max-width:1000px){
+    input{
+        width: 30rem;
+    }
+}
+@media only screen and (max-width: 768px){
+    input{
+        width: 25rem;
+    }
+}
+@media only screen and (max-width: 475px){
+    input{
+        width: 15rem;
+    }
+}
