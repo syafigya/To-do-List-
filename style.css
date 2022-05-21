@@ -1,0 +1,14 @@
+html {
+    margin : 0;
+    padding : 0;
+}
+#allItems{
+    margin: 15px 50px 0 50px;
+    font-size: 3rem;
+    cursor: pointer;
+}
+
+i{
+    cursor: pointer;
+}
+
